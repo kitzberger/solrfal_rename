@@ -1,0 +1,17 @@
+{
+	"name": "kitzberger/solrfal-rename",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 Solrfal: Support for renaming files",
+	"homepage": "https://github.com/kitzberger/solrfal_rename",
+	"license": ["GPL-2.0+"],
+	"keywords": ["TYPO3 CMS"],
+	"require": {
+		"typo3/cms": ">=7.6.*",
+		"solrfal": ""
+	},
+	"autoload": {
+		"psr-4": {
+			"Kitzberger\\SolrfalRename\\": "Classes/"
+		}
+	}
+}
