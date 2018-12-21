@@ -6,8 +6,8 @@
 	"license": ["GPL-2.0+"],
 	"keywords": ["TYPO3 CMS"],
 	"require": {
-		"typo3/cms": ">=7.6.*",
-		"solrfal": ""
+		"typo3/cms": ">=7.6.0",
+		"apache-solr-for-typo3/solrfal": ">=3.3.0"
 	},
 	"autoload": {
 		"psr-4": {
