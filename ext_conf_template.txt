@@ -1,0 +1,6 @@
+# cat=basic/enable/1; type=boolean; label=Handle sys_file.name updates: Invalidate solr index queue for updates of sys_file.name?
+flush_on_rename =
+
+# cat=basic/enable/2; type=boolean; label=Handle sys_file_metadata.* updates: Invalidate solr index queue for updates of sys_file_metadata.*?
+flush_on_metadata_update =
+
